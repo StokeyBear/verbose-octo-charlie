@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title> Help the Lost Bob </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- Index HTML -->
+    <h2> Get Spongebob Out of His HTML Funk</h2>
+    <button id="resetGame" class="btn btn-secondary">Enlighten Again</button>
+    
+
+    <ul class="ui-helper-reset">
+      <li id="event-drag" class="ui-state-default ui-corner-all">
+        <span class="ui-icon ui-icon-arrow-4"></span>&quot;Lead Spongebob around till he understands HTML&quot; Steps towards enlightenment:
+        <span class="count">0</span>x
+      </li>
+    </ul>
+
+    <div id="draggable" class="ui-widget-content ui-widget">
+      <img
+        alt="Lost Bob"
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgflip.com%2F2g2y7q.jpg&f=1&nofb=1&ipt=02333d99e6aee09c1c559bffaae36f344b68f7306b11d203065fcd5055ed8e70&ipo=images"
+        height="350px"
+      />
+    </div>
+
+    <div id="gameOutput"></div>
+
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

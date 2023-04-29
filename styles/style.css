@@ -1,0 +1,40 @@
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp6864010.jpg&f=1&nofb=1&ipt=c398e619bf4d21e770e777f9d8fa038d7b6e4a0709822ff773b5fc1853c69dd6&ipo=images);
+ 
+  background-size: cover;
+  background-size: 1400px 1500px;
+  background-position: center center;
+
+}
+
+#resetGame {
+  background-color: lightgreen; 
+  border: none;
+  color: fuchsia;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h2{
+  font-size: 32px;
+  font-weight:300px;
+  color:white;
+}
+
+li{
+  font-size: 16px;
+  font-weight:200px;
+  color:white;
+}
+
+ui{
+  font-size: 16px;
+  font-weight:200px;
+  color:white;
+
+}
